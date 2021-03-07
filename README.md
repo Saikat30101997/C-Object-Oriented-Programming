@@ -1,0 +1,1 @@
+There are only C# file. Not others file of Visual studio. Its beacuse I can easily work or see only my programming codes. If any one want to learn from my code,he/she can not copy paste or upload direct files in any compiler platform like visual studio or visual studio code 

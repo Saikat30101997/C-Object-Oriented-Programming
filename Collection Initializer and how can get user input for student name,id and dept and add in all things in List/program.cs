@@ -31,13 +31,13 @@ namespace Delegates
                 Console.WriteLine(item.Name + " " + item.Dept);
             }
             Console.WriteLine("\n");
-            for (int i = 1; i <= 2; i++)
+            for (int i = 1; i <= 2; i++) //ekhane input nicchi
             {
                 int x = int.Parse(Console.ReadLine());
                 string y = Console.ReadLine();
                 string z = Console.ReadLine();
 
-                std.Add(new Student() { Id = x, Name = y, Dept = z });
+                std.Add(new Student() { Id = x, Name = y, Dept = z }); // er maddhome amra agula list e add kortee parboo
 
             
             }

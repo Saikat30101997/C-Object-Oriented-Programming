@@ -35,4 +35,11 @@ namespace Delegates
         }
     }
 }
+/*
+Extension methods must be defined only under the static class.
+As an extension method is defined under a static class, compulsory that the method should be defined as static whereas once the method is bound with another class, the method changes into non-static.
+The first parameter of an extension method is known as the binding parameter which should be the name of the class to which the method has to be bound and the binding parameter should be prefixed with this keyword.
+An extension method can have only one binding parameter and that should be defined in the first place of the parameter list.
+If required, an extension method can be defined with a normal parameter also starting from the second place of the parameter list. */
+
 
